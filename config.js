@@ -20,13 +20,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/MrH%C3%A3%C3%A7k%C3%ABrL%C3%B8rd-03-28" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "8184059232" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "8184059232";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348184059232";
 
 
 
@@ -76,7 +76,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "MrHãçkërLørd",
   packname: process.env.PACK_NAME || "☠️🤖👾👽",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "👾MrHãçkërLørd🤖",
   ownername:process.env.OWNER_NAME|| "ÏtzMrHãçkërLørd",
 
 
