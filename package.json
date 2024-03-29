@@ -5,7 +5,7 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
+            "run": "pm2 start . --deep-monitoring --attach --name MrHãçkërLørd || node .",
             "start": "pm2 start . --attach --name Suhail",
             "stop": "pm2 stop Suhail"
    },
