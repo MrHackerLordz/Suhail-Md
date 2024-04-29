@@ -72,7 +72,7 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "MrHãçkërLørd" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ MrHãçkërLørd 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "MrHãçkërLørd",
+  author : process.env.PACK_AUTHER|| "👾MrHãçkërLørd👽",
   packname: process.env.PACK_NAME || "☠️🤖👾👽",
   botname : process.env.BOT_NAME  || "MrHãçkërLørd",
   ownername:process.env.OWNER_NAME|| "ÏtzMrHãçkërLørd",
