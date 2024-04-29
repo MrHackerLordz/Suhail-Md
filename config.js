@@ -18,11 +18,9 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
-
-
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaUIWdb7YSd8c7PQk41M";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaUIWdb7YSd8c7PQk41M" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.postimg.cc/8C5hQ9DS/Screenshot-20240328-181441.jpg"
 
 global.devs = "2348184059232" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
@@ -41,19 +39,19 @@ global.warncount = process.env.WARN_COUNT || 3
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
-global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/MrH%C3%A3%C3%A7k%C3%ABrL%C3%B8rd-03-28" // ramadan Theme Images
+global.MsgsInLog = process.env.MSGS_IN_LOG|| "true" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file-03-29.jpg,https://prnt.sc/o_FM6SeXQ4tF.jpg" // ramadan Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
-global.readmessage = process.env.READ_MESSAGE || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
+global.readmessage = process.env.READ_MESSAGE || "true"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348184059232,818xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348184059232,923xxxxxxxx";
@@ -76,7 +74,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "MrHãçkërLørd",
   packname: process.env.PACK_NAME || "☠️🤖👾👽",
-  botname : process.env.BOT_NAME  || "👾MrHãçkërLørd🤖",
+  botname : process.env.BOT_NAME  || "MrHãçkërLørd",
   ownername:process.env.OWNER_NAME|| "ÏtzMrHãçkërLørd",
 
 
@@ -93,7 +91,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "MrHãçkërLørd"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "MRHACKERLORD"  ).toUpperCase(),
 
 
 
